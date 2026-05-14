@@ -1,0 +1,81 @@
+{
+  "visual_styles": {
+    "sumi_e": "ink wash, minimal brush strokes, zen composition, high contrast black ink on light background",
+    "datos": "digital data aesthetics, holographic graphs, cold blue light, analytical atmosphere",
+    "tradicion": "warm cinematic lighting, locker room realism, human drama",
+    "choque_mundos": "contrast between cold digital light and warm human tones"
+  },
+  "factions": {
+    "datos": [
+      "Tomas",
+      "Clara"
+    ],
+    "tradicion": [
+      "Ferrer",
+      "Salvatierra"
+    ]
+  },
+  "block_kind": {
+    "sun_tzu_opening": {
+      "scene_kind": "narration",
+      "audio": "narrator",
+      "video": "environment_animation",
+      "visual_style": "sumi_e",
+      "camera": "slow_pan",
+      "mood": "philosophical"
+    },
+    "plot_1": {
+      "scene_kind": "dialogue",
+      "video": "lip_sync",
+      "camera": "shot_reverse_shot",
+      "visual_style": "choque_mundos"
+    },
+    "plot_2": {
+      "scene_kind": "dialogue",
+      "video": "lip_sync",
+      "camera": "shot_reverse_shot",
+      "visual_style": "datos"
+    },
+    "plot_3": {
+      "scene_kind": "dialogue",
+      "video": "lip_sync",
+      "camera": "shot_reverse_shot",
+      "visual_style": "tradicion"
+    },
+    "plot_4": {
+      "scene_kind": "dialogue",
+      "video": "lip_sync",
+      "camera": "shot_reverse_shot",
+      "visual_style": "choque_mundos"
+    },
+    "interlude_1": {
+      "scene_kind": "narration",
+      "audio": "narrator",
+      "video": "environment_animation",
+      "camera": "tracking",
+      "mood": "reflective"
+    },
+    "interlude_2": {
+      "scene_kind": "narration",
+      "audio": "narrator",
+      "video": "environment_animation",
+      "camera": "slow_push",
+      "mood": "tense"
+    },
+    "interlude_3": {
+      "scene_kind": "narration",
+      "audio": "narrator",
+      "video": "environment_animation",
+      "camera": "slow_pan",
+      "mood": "anticipation"
+    },
+    "sun_tzu_closing": {
+      "scene_kind": "narration",
+      "audio": "narrator",
+      "video": "environment_animation",
+      "visual_style": "sumi_e",
+      "camera": "slow_push",
+      "mood": "philosophical"
+    }
+  }
+}

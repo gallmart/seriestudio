@@ -1,0 +1,50 @@
+{
+  "characters": {
+    "Narrator": "1MxuWc12WPRxDkgfT3kj",
+    "Tomas": "zuKOnzM8OJyC1IQIhCHR",
+    "Clara": "flHkNRp1BlvT73UL6gyz",
+    "Javier": "goT3UYdM9bhm0n2lmKQx",
+    "Ferrer": "cPoqAvGWCPfCfyPMwe4z",
+    "Salvatierra": "FsgGjKdjGByhJnRex8ln",
+    "Lucia": "lUCNYQh2kqW2wiie85Qk",
+    "Victor": "HMCmDsbKeaSZp5LMOYKR",
+    "Marcos": "Mtmp3KhFIjYpWYRycDe3"
+  },
+  "aliases": {
+    "Sun_Tzu_Narrador": "Narrator",
+    "Tomás": "Tomas",
+    "Lucía": "Lucia",
+    "Víctor": "Victor"
+  },
+  "defaults": {
+    "fallback_voice": "1MxuWc12WPRxDkgfT3kj",
+    "narrator": "Narrator",
+    "model_id": "eleven_multilingual_v2"
+  },
+  "voice_settings": {
+    "default": {
+      "stability": 0.45,
+      "similarity_boost": 0.75,
+      "style": 0.2,
+      "use_speaker_boost": true
+    },
+    "Narrator": {
+      "stability": 0.65,
+      "similarity_boost": 0.8,
+      "style": 0.15,
+      "use_speaker_boost": true
+    },
+    "Tomas": {
+      "stability": 0.35,
+      "similarity_boost": 0.8,
+      "style": 0.1,
+      "use_speaker_boost": true
+    },
+    "Ferrer": {
+      "stability": 0.6,
+      "similarity_boost": 0.75,
+      "style": 0.25,
+      "use_speaker_boost": true
+    }
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "defaults": {
+    "narration": {
+      "shot": "medium",
+      "framing": "medium",
+      "camera": "static_subtle_push",
+      "audio": "narrator",
+      "video": "environment_animation",
+      "duration": "6"
+    },
+    "dialogue": {
+      "shot": "close_up",
+      "framing": "close_up",
+      "camera": "static_subtle_push",
+      "audio": "single_voice",
+      "video": "lip_sync",
+      "duration": "5"
+    },
+    "mixed": {
+      "shot": "medium",
+      "framing": "medium",
+      "camera": "static",
+      "audio": "narrator_plus_dialogue",
+      "video": "character_animation",
+      "duration": "6"
+    }
+  },
+  "framing_by_shot": {
+    "wide_establishing": "wide",
+    "medium_two_shot": "two_shot",
+    "close_up": "close_up",
+    "insert": "detail",
+    "tracking": "medium",
+    "over_the_shoulder": "medium_close_up",
+    "medium": "medium"
+  },
+  "camera_by_shot": {
+    "wide_establishing": "slow_pan",
+    "medium_two_shot": "static",
+    "close_up": "static_subtle_push",
+    "insert": "static",
+    "tracking": "tracking_right",
+    "over_the_shoulder": "static",
+    "medium": "static"
+  },
+  "duration_rules": {
+    "base_by_function": {
+      "environment": 6,
+      "object_emphasis": 3,
+      "action": 5,
+      "reaction": 5,
+      "statement": 5,
+      "confrontation": 5,
+      "transition": 4
+    },
+    "shot_adjustments": {
+      "insert": -2,
+      "wide_establishing": 1,
+      "tracking": 1,
+      "close_up": 0,
+      "medium_two_shot": 0,
+      "over_the_shoulder": 0,
+      "medium": 0
+    },
+    "scene_kind_adjustments": {
+      "dialogue": 0,
+      "narration": 1,
+      "mixed": 1
+    },
+    "word_count_rules": {
+      "very_short_max": 6,
+      "short_max": 12,
+      "medium_max": 20,
+      "very_short_adjustment": -1,
+      "short_adjustment": 0,
+      "medium_adjustment": 1,
+      "long_adjustment": 2
+    },
+    "min_duration": 3,
+    "max_duration": 9
+  },
+  "prompt_rules": {
+    "shot_descriptions": {
+      "wide_establishing": "wide establishing shot",
+      "medium_two_shot": "medium two shot",
+      "close_up": "close-up shot",
+      "insert": "insert shot",
+      "tracking": "tracking shot",
+      "over_the_shoulder": "over-the-shoulder shot",
+      "medium": "medium shot"
+    },
+    "framing_descriptions": {
+      "wide": "wide framing",
+      "two_shot": "two characters in frame",
+      "close_up": "tight facial framing",
+      "medium": "medium framing",
+      "detail": "detail framing",
+      "full_body": "full body framing",
+      "medium_close_up": "medium close-up framing"
+    },
+    "camera_descriptions": {
+      "slow_pan": "slow cinematic pan",
+      "static": "static camera",
+      "static_subtle_push": "static camera with subtle push-in",
+      "tracking_right": "smooth tracking movement to the right",
+      "tracking_left": "smooth tracking movement to the left",
+      "slow_push": "slow cinematic push-in"
+    },
+    "transition_descriptions": {
+      "fade": "soft visual continuity",
+      "fade_in": "opening fade-in feeling",
+      "dissolve": "smooth dissolving continuity",
+      "cut": "direct dramatic continuity",
+      "match_cut": "matched visual continuity"
+    },
+    "quality_tags": [
+      "consistent character identity",
+      "consistent environment design",
+      "cinematic lighting",
+      "high quality animated series look",
+      "natural motion",
+      "no visual glitches",
+      "clean composition",
+      "professional scene continuity"
+    ]
+  },
+  "model_prompt_profiles": {
+    "fal": {
+  	"mode": "balanced",
+  	"max_parts": 22
+    },
+    "runway": {
+  	"mode": "short",
+  	"max_parts": 12
+    },
+    "pika": {
+  	"mode": "short",
+  	"max_parts": 10
+    },
+    "cinematic": {
+  	"mode": "long",
+  	"max_parts": 30
+    }
+  }
+}

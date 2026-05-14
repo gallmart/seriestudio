@@ -1,0 +1,39 @@
+{
+  "music": {
+    "minimal_contemplative": "assets/audio/music/musica_suspense.mp3",
+    "strategic_tension": "assets/audio/music/musica_tension.mp3",
+    "dramatic_tension": "assets/audio/music/musica_tension.mp3",
+    "institutional_pressure": "assets/audio/music/musica_tension.mp3",
+    "neutral_underscore": "assets/audio/music/musica_suspense.mp3"
+  },
+  "ambience": {
+    "stadium_exterior": "assets/audio/ambience/ruido_grada.mp3",
+    "empty_stands": "assets/audio/ambience/eco_vestuario.mp3",
+    "locker_room": "assets/audio/ambience/eco_vestuario.mp3",
+    "bar_el_buho": "assets/audio/ambience/murmullo_bar.mp3",
+    "finance_office": "assets/audio/ambience/murmullo_interior.mp3",
+    "vip_box": "assets/audio/ambience/murmullo_interior.mp3"
+  },
+  "weather": {
+    "rain": "assets/audio/ambience/lluvia_fina.mp3"
+  },
+  "rules": {
+    "mood_to_music": {
+      "solemn": "minimal_contemplative",
+      "analytical": "minimal_contemplative",
+      "tense": "strategic_tension",
+      "hostile": "dramatic_tension",
+      "grim": "dramatic_tension",
+      "institutional": "institutional_pressure",
+      "decisive": "dramatic_tension"
+    },
+    "location_to_ambience": {
+      "stadium_exterior": "stadium_exterior",
+      "empty_stands": "empty_stands",
+      "locker_room": "locker_room",
+      "bar_el_buho": "bar_el_buho",
+      "finance_office": "finance_office",
+      "vip_box": "vip_box"
+    }
+  }
+}

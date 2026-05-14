@@ -1,0 +1,229 @@
+{
+  "scene_opening_rules": {
+    "dialogue": "medium_two_shot",
+    "narration": "wide_establishing",
+    "mixed": "medium",
+    "action": "wide_establishing",
+    "analysis": "medium",
+    "voiceover": "wide_establishing",
+    "flashback": "wide_establishing",
+    "dream": "wide_establishing",
+    "montage": "wide_establishing"
+  },
+  "function_to_default_shot": {
+    "environment": "wide_establishing",
+    "object_emphasis": "insert",
+    "action": "tracking",
+    "reaction": "close_up",
+    "statement": "close_up",
+    "confrontation": "over_the_shoulder",
+    "transition": "medium"
+  },
+  "function_to_framing": {
+    "environment": "wide",
+    "object_emphasis": "detail",
+    "action": "medium",
+    "reaction": "close_up",
+    "statement": "medium_close_up",
+    "confrontation": "medium_close_up",
+    "transition": "medium"
+  },
+  "function_to_camera": {
+    "environment": "slow_pan",
+    "object_emphasis": "static",
+    "action": "tracking_right",
+    "reaction": "static_subtle_push",
+    "statement": "static_subtle_push",
+    "confrontation": "static",
+    "transition": "static"
+  },
+  "dialogue_rules": {
+    "opening_with_two_characters": "medium_two_shot",
+    "reply_after_speaker_change": "over_the_shoulder",
+    "same_speaker_continues": "close_up",
+    "same_focus_repeated_close_up_fallback": "medium",
+    "reaction_after_dialogue": "close_up",
+    "max_consecutive_over_the_shoulder": 2,
+    "max_consecutive_close_up": 2
+  },
+  "object_rules": {
+    "force_insert_for_object_emphasis": true,
+    "force_detail_framing_for_insert": true,
+    "important_props": [
+      "laptop",
+      "contract",
+      "folder",
+      "notebook",
+      "ball",
+      "tactical_board",
+      "captain_armband",
+      "phone",
+      "tablet",
+      "financial_report"
+    ]
+  },
+  "environment_rules": {
+    "opening_environment_prefers_wide": true,
+    "post_dialogue_environment_shot": "wide_establishing",
+    "post_dialogue_environment_transition": "fade",
+    "camera_for_environment": "slow_pan"
+  },
+  "reaction_rules": {
+    "prefer_close_up": true,
+    "if_previous_shot_same_and_same_focus": "medium",
+    "camera": "static_subtle_push",
+    "transition_after_dialogue": "cut"
+  },
+  "action_rules": {
+    "prefer_tracking": true,
+    "fallback_shot": "medium",
+    "camera": "tracking_right",
+    "transition": "cut",
+    "max_consecutive_tracking": 2
+  },
+  "scene_closing_rules": {
+    "environment": {
+      "shot": "wide_establishing",
+      "transition": "fade"
+    },
+    "reaction": {
+      "shot": "close_up",
+      "transition": "dissolve"
+    },
+    "object_emphasis": {
+      "shot": "insert",
+      "transition": "cut"
+    }
+  },
+  "diversity_rules": {
+    "max_consecutive": {
+      "wide_establishing": 2,
+      "medium_two_shot": 2,
+      "medium": 3,
+      "medium_close_up": 2,
+      "close_up": 2,
+      "over_the_shoulder": 2,
+      "insert": 2,
+      "tracking": 2
+    },
+    "fallback_alternatives": {
+      "wide_establishing": ["medium", "close_up"],
+      "medium_two_shot": ["over_the_shoulder", "medium"],
+      "medium": ["close_up", "medium_two_shot"],
+      "medium_close_up": ["close_up", "medium"],
+      "close_up": ["medium", "over_the_shoulder"],
+      "over_the_shoulder": ["close_up", "medium_two_shot"],
+      "insert": ["close_up", "medium"],
+      "tracking": ["medium", "close_up"]
+    }
+  },
+  "transition_rules": {
+    "episode_start": "fade_in",
+    "location_change": "fade",
+    "speaker_change_in_dialogue": "cut",
+    "focus_change": "match_cut",
+    "environment": "dissolve",
+    "object_emphasis": "cut",
+    "fallback": "cut"
+  },
+  "blocking_rules": {
+    "two_character_default_axis": ["left", "right"],
+    "new_character_entry_side": "background",
+    "speaker_on_left_reply_foreground": "right_character",
+    "speaker_on_right_reply_foreground": "left_character",
+    "maintain_axis_across_dialogue": true
+  },
+  "mood_overrides": {
+    "solemn": {
+      "prefer_shot": "wide_establishing",
+      "camera": "slow_pan",
+      "transition": "dissolve"
+    },
+    "analytical": {
+      "prefer_shot": "medium",
+      "camera": "static",
+      "visual_style": "datos"
+    },
+    "melancholic": {
+      "prefer_shot": "medium_close_up",
+      "camera": "slow_push",
+      "transition": "dissolve"
+    },
+    "ominous": {
+      "prefer_shot": "wide_establishing",
+      "camera": "slow_push",
+      "visual_style": "choque_mundos"
+    },
+    "tense": {
+      "prefer_shot": "close_up",
+      "camera": "static_subtle_push",
+      "transition": "cut"
+    },
+    "hostile": {
+      "prefer_shot": "over_the_shoulder",
+      "camera": "static",
+      "transition": "cut"
+    },
+    "grim": {
+      "prefer_shot": "medium_close_up",
+      "camera": "static_subtle_push"
+    },
+    "decisive": {
+      "prefer_shot": "close_up",
+      "camera": "static_subtle_push",
+      "transition": "cut"
+    },
+    "introspective": {
+      "prefer_shot": "close_up",
+      "camera": "slow_push",
+      "visual_style": "sumi_e"
+    },
+    "sharp": {
+      "prefer_shot": "medium_close_up",
+      "camera": "static",
+      "transition": "cut"
+    }
+  },
+  "visual_style_overrides": {
+    "sun_tzu_opening": {
+      "visual_style": "sumi_e",
+      "camera": "slow_pan",
+      "scene_kind": "narration"
+    },
+    "sun_tzu_closing": {
+      "visual_style": "sumi_e",
+      "camera": "slow_pan",
+      "scene_kind": "narration"
+    },
+    "plot_1": {
+      "visual_style": "tradicion"
+    },
+    "plot_2": {
+      "visual_style": "choque_mundos"
+    },
+    "plot_3": {
+      "visual_style": "datos"
+    },
+    "plot_4": {
+      "visual_style": "tradicion"
+    },
+    "interlude_1": {
+      "visual_style": "tradicion"
+    },
+    "interlude_2": {
+      "visual_style": "datos"
+    },
+    "interlude_3": {
+      "visual_style": "sumi_e"
+    }
+  },
+  "duration_bias_rules": {
+    "wide_establishing": 1,
+    "insert": -1,
+    "tracking": 1,
+    "close_up": 0,
+    "over_the_shoulder": 0,
+    "medium": 0,
+    "medium_two_shot": 0
+  }
+}

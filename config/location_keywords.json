@@ -1,0 +1,11 @@
+{
+  "stadium_exterior": ["estadio", "grada", "gradas", "campo", "césped", "cesped", "tribuna", "focos", "banquillo"],
+  "empty_stands": ["grada vacía", "gradas vacías", "graderío vacío", "graderio vacio"],
+  "vip_box": ["palco", "palco vip", "zona noble", "tribuna presidencial"],
+  "locker_room": ["vestuario", "taquilla", "ducha", "camilla", "sala de fisioterapia"],
+  "pitch": ["área", "area", "divisoria", "portería", "porteria", "balón", "balon", "contraataque", "partido"],
+  "finance_office": ["despacho", "oficina", "mesa", "balance", "balances", "factura", "contrato", "carpeta de cuero"],
+  "bar_el_buho": ["bar", "el búho", "el buho", "barra", "café", "cafe", "taburete", "mesa esquinada"],
+  "press_room": ["sala de prensa", "rueda de prensa", "micrófono", "microfono", "pregunta de periodista"],
+  "tunnel_to_pitch": ["túnel", "tunel", "salida al campo", "entrañas del estadio"]
+}

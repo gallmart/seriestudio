@@ -1,0 +1,7 @@
+{
+  "environment_keywords": ["estadio", "lluvia", "grada", "gradas", "ciudad", "focos", "palco", "vestuario", "túnel", "tunel"],
+  "object_keywords": ["portátil", "portatil", "ordenador", "pantalla", "libreta", "carpeta", "contrato", "balón", "balon", "brazalete", "pizarra", "silbato", "teléfono", "telefono"],
+  "action_keywords": ["corrió", "corrio", "saltó", "salto", "entró", "entro", "salió", "salio", "golpeó", "golpeo", "lanzó", "lanzo", "despejó", "despejo", "remató", "remato", "contraataque", "disparo", "centro"],
+  "reaction_keywords": ["miró", "miro", "pensó", "penso", "recordó", "recordo", "observó", "observo", "dudó", "dudo", "calló", "callo", "susurró", "susurro", "murmuró", "murmuro"],
+  "confrontation_keywords": ["no", "nunca", "jamás", "jamas", "pero", "basta", "imposible", "error", "mentira"]
+}

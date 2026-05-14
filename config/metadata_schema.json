@@ -1,0 +1,398 @@
+{
+  "episode": {
+    "required": [
+      "id",
+      "title"
+    ],
+    "optional": [
+      "season",
+      "theme"
+    ],
+    "enums": {
+      "theme": [
+        "foundation",
+        "calculation",
+        "identity",
+        "survival",
+        "collapse",
+        "legacy",
+        "power",
+        "betrayal",
+        "transformation"
+      ]
+    }
+  },
+  "block": {
+    "required": [
+      "id",
+      "kind"
+    ],
+    "optional": [
+      "source_part",
+      "theme"
+    ],
+    "enums": {
+      "kind": [
+        "sun_tzu_opening",
+        "sun_tzu_closing",
+        "plot_1",
+        "plot_2",
+        "plot_3",
+        "plot_4",
+        "interlude_1",
+        "interlude_2",
+        "interlude_3",
+        "flashback",
+        "analysis",
+        "institutional_scene",
+        "match_sequence",
+        "training_sequence",
+        "crisis_sequence",
+        "reflection",
+        "epilogue"
+      ],
+      "theme": [
+        "calculation",
+        "institutional_tension",
+        "tactical_discovery",
+        "identity",
+        "survival",
+        "collapse",
+        "system_failure",
+        "strategy_shift",
+        "psychological_conflict",
+        "financial_crisis",
+        "leadership",
+        "legacy",
+        "power",
+        "betrayal",
+        "transformation"
+      ]
+    }
+  },
+  "scene": {
+    "required": [
+      "id",
+      "kind",
+      "location"
+    ],
+    "optional": [
+      "time",
+      "mood",
+      "characters",
+      "props",
+      "audio",
+      "video",
+      "visual_style",
+      "shot_style",
+      "continuity_notes",
+      "voice_id"
+    ],
+    "enums": {
+      "kind": [
+        "narration",
+        "dialogue",
+        "mixed",
+        "action",
+        "analysis",
+        "voiceover",
+        "dream",
+        "flashback",
+        "montage"
+      ],
+      "location": [
+        "stadium_exterior",
+        "empty_stands",
+        "vip_box",
+        "pitch",
+        "tunnel",
+        "locker_room",
+        "bench_area",
+        "training_pitch",
+        "press_room",
+        "boardroom",
+        "finance_office",
+        "coach_office",
+        "data_lab",
+        "tactics_room",
+        "medical_room",
+        "bar_el_buho",
+        "bar",
+        "restaurant",
+        "street",
+        "parking_lot",
+        "hotel_lobby",
+        "airport",
+        "train_station",
+        "office",
+        "interior_room",
+        "exterior_field",
+        "urban_street",
+        "industrial_space"
+      ],
+      "time": [
+        "dawn",
+        "morning",
+        "midday",
+        "afternoon",
+        "evening",
+        "night",
+        "late_night",
+        "rainy_evening",
+        "storm",
+        "match_time",
+        "training_time"
+      ],
+      "mood": [
+        "solemn",
+        "analytical",
+        "melancholic",
+        "nostalgic",
+        "ominous",
+        "tense",
+        "hostile",
+        "aggressive",
+        "suspended",
+        "dramatic",
+        "cold",
+        "warm",
+        "reflective",
+        "anxious",
+        "fearful",
+        "urgent",
+        "decisive",
+        "resigned",
+        "hopeful",
+        "determined",
+        "strategic",
+        "institutional",
+        "introspective",
+        "philosophical",
+        "grim",
+        "sharp"
+      ],
+      "audio": [
+        "narrator",
+        "single_voice",
+        "dialogue_multi",
+        "narrator_plus_dialogue",
+        "ambient_only",
+        "internal_monologue"
+      ],
+      "video": [
+        "environment_animation",
+        "lip_sync",
+        "character_animation",
+        "scene",
+        "montage",
+        "abstract_visualization",
+        "data_visualization"
+      ],
+      "visual_style": [
+        "tradicion",
+        "datos",
+        "choque_mundos",
+        "sumi_e",
+        "documentary",
+        "cinematic_realism",
+        "minimalist",
+        "analytical_graphic",
+        "poetic_visual",
+        "noir",
+        "sports_broadcast"
+      ],
+      "shot_style": [
+        "cinematic",
+        "restrained",
+        "dynamic",
+        "observational",
+        "dialogue_heavy",
+        "visual_poetry",
+        "documentary",
+        "sports_camera"
+      ]
+    }
+  },
+  "beat": {
+    "required": [
+      "id"
+    ],
+    "optional": [
+      "focus",
+      "shot",
+      "framing",
+      "camera",
+      "transition",
+      "duration",
+      "audio",
+      "video",
+      "visual_style",
+      "kind",
+      "music_tag",
+      "sfx_tags",
+      "bgm_level",
+      "sfx_level",
+      "speech_rate",
+      "voice_intensity",
+      "pause_before",
+      "pause_after",
+      "voice_id",
+      "continuity_notes",
+      "lock_location",
+      "lock_props",
+      "lock_voice",
+      "lock_visual_style"
+    ],
+    "enums": {
+      "shot": [
+        "wide_establishing",
+        "extreme_wide",
+        "wide",
+        "medium_wide",
+        "medium",
+        "medium_close_up",
+        "close_up",
+        "extreme_close_up",
+        "two_shot",
+        "medium_two_shot",
+        "group_shot",
+        "over_the_shoulder",
+        "insert",
+        "detail",
+        "tracking",
+        "handheld"
+      ],
+      "framing": [
+        "wide",
+        "medium",
+        "close_up",
+        "detail",
+        "two_shot",
+        "group",
+        "full_body",
+        "medium_close_up",
+        "profile",
+        "silhouette"
+      ],
+      "camera": [
+        "static",
+        "slow_pan",
+        "pan_left",
+        "pan_right",
+        "slow_push",
+        "push_in",
+        "push_out",
+        "tracking",
+        "tracking_left",
+        "tracking_right",
+        "handheld",
+        "steadicam",
+        "crane_up",
+        "crane_down",
+        "orbit",
+        "zoom_in",
+        "zoom_out",
+        "static_subtle_push"
+      ],
+      "transition": [
+        "cut",
+        "hard_cut",
+        "match_cut",
+        "fade",
+        "fade_in",
+        "fade_out",
+        "dissolve",
+        "crossfade",
+        "wipe",
+        "time_jump",
+        "flash_transition"
+      ],
+      "audio": [
+        "narrator",
+        "single_voice",
+        "dialogue_multi",
+        "narrator_plus_dialogue",
+        "ambient_only",
+        "internal_voice"
+      ],
+      "video": [
+        "lip_sync",
+        "character_animation",
+        "environment_animation",
+        "abstract_visualization",
+        "data_overlay",
+        "scene"
+      ],
+      "visual_style": [
+        "tradicion",
+        "datos",
+        "choque_mundos",
+        "sumi_e",
+        "documentary",
+        "analytical_graphic"
+      ],
+      "kind": [
+        "narration",
+        "dialogue",
+        "action",
+        "reaction",
+        "statement",
+        "confrontation",
+        "environment",
+        "transition",
+        "object_emphasis",
+        "mixed"
+      ],
+      "music_tag": [
+        "minimal_contemplative",
+        "cold_analytical_pulse",
+        "warm_human_drama",
+        "strategic_tension",
+        "dramatic_tension",
+        "kinetic_pulse",
+        "ambient_space",
+        "introspective_sparse",
+        "neutral_underscore",
+        "institutional_pressure",
+        "quiet_piano",
+        "slow_strings",
+        "digital_pulse"
+      ],
+      "bgm_level": [
+        "off",
+        "low",
+        "medium",
+        "high"
+      ],
+      "sfx_level": [
+        "off",
+        "low",
+        "medium",
+        "high"
+      ],
+      "voice_intensity": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "numeric_ranges": {
+      "duration": {
+        "min": 2,
+        "max": 10
+      },
+      "speech_rate": {
+        "min": 0.85,
+        "max": 1.1
+      },
+      "pause_before": {
+        "min": 0.0,
+        "max": 0.5
+      },
+      "pause_after": {
+        "min": 0.0,
+        "max": 0.5
+      }
+    }
+  }
+}

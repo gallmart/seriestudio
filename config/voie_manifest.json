@@ -1,0 +1,26 @@
+{
+  "characters": {
+    "Narrator": "1MxuWc12WPRxDkgfT3kj",
+
+    "Tomas": "zuKOnzM8OJyC1IQIhCHR",
+    "Clara": "flHkNRp1BlvT73UL6gyz",
+    "Javier": "goT3UYdM9bhm0n2lmKQx",
+    "Ferrer": "cPoqAvGWCPfCfyPMwe4z",
+    "Salvatierra": "FsgGjKdjGByhJnRex8ln",
+    "Lucia": "lUCNYQh2kqW2wiie85Qk",
+    "Victor": "HMCmDsbKeaSZp5LMOYKR",
+    "Marcos": "Mtmp3KhFIjYpWYRycDe3"
+  },
+
+  "aliases": {
+    "Sun_Tzu_Narrador": "Narrator",
+    "TomÃ¡s": "Tomas",
+    "LucÃ­a": "Lucia",
+    "VÃ­ctor": "Victor"
+  },
+
+  "defaults": {
+    "fallback_voice": "1MxuWc12WPRxDkgfT3kj",
+    "narrator": "Narrator"
+  }
+}

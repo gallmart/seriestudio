@@ -1,0 +1,10 @@
+{
+  "Tomas": ["Tomás", "Tomas", "Vega", "Tomás Vega", "analista", "el analista"],
+  "Javier": ["Javier", "Sunsúez", "Javier Sunsúez", "presidente", "el presidente"],
+  "Clara": ["Clara", "Roldán", "Clara Roldán", "directora financiera", "la financiera"],
+  "Ferrer": ["Ferrer", "Alejandro", "Alejandro Ferrer", "entrenador", "el entrenador", "míster", "mister"],
+  "Salvatierra": ["Salvatierra", "Diego Salvatierra", "Diego", "capitán", "el capitán", "capitan"],
+  "Lucia": ["Lucía", "Lucia", "Ortega", "Lucía Ortega", "periodista", "la periodista"],
+  "Andrade": ["Víctor", "Victor", "Andrade", "Víctor Andrade", "Victor Andrade", "inversor", "el inversor"],
+  "Marcos": ["Marcos", "canterano", "el canterano", "joven jugador", "el chico"]
+}

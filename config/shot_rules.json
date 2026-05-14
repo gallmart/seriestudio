@@ -1,0 +1,14 @@
+{
+  "function_to_shot": {
+    "environment": "wide_establishing",
+    "object_emphasis": "insert",
+    "reaction": "close_up",
+    "action": "tracking",
+    "statement": "close_up",
+    "confrontation": "over_the_shoulder",
+    "transition": "medium"
+  },
+  "dialogue_opening_shot": "medium_two_shot",
+  "dialogue_reply_shot": "over_the_shoulder",
+  "fallback_shot": "medium"
+}

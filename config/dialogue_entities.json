@@ -1,0 +1,30 @@
+{
+  "vocative_aliases": {
+    "presi": "Javier",
+    "presidente": "Javier",
+    "director financiero": "Clara",
+    "directora financiera": "Clara",
+    "entrenador": "Ferrer",
+    "mister": "Ferrer",
+    "míster": "Ferrer",
+    "capitan": "Salvatierra",
+    "capitán": "Salvatierra",
+    "periodista": "Lucia",
+    "inversor": "Andrade",
+    "analista": "Tomas"
+  },
+  "non_speaker_vocatives": [
+    "presi",
+    "presidente",
+    "míster",
+    "mister",
+    "capitán",
+    "capitan",
+    "entrenador",
+    "analista",
+    "periodista",
+    "inversor",
+    "directora financiera",
+    "director financiero"
+  ]
+}

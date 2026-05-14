@@ -1,0 +1,26 @@
+{
+  "E01_B03_S02_BT04": {
+    "shot": "close_up",
+    "framing": "close_up",
+    "camera": "slow_push",
+    "focus": "Javier",
+    "duration": 5,
+    "music_tag": "dramatic_tension",
+    "bgm_level": "medium"
+  },
+
+  "E01_B03_S02_BT05": {
+    "shot": "insert",
+    "focus": "laptop",
+    "camera": "static",
+    "duration": 3,
+    "sfx_tags": ["keyboard"]
+  },
+
+  "E01_B04_S01_BT02": {
+    "shot": "over_the_shoulder",
+    "camera": "static",
+    "focus": "Ferrer",
+    "transition": "cut"
+  }
+}

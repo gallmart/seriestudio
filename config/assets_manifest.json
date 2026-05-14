@@ -1,0 +1,36 @@
+{
+  "characters": {
+    "Javier": "assets/characters/Javier.png",
+    "Tomas": "assets/characters/Tomas.png",
+    "Clara": "assets/characters/Clara.png",
+    "Ferrer": "assets/characters/Ferrer.png",
+    "Salvatierra": "assets/characters/Salvatierra.png",
+    "Lucia": "assets/characters/Lucia.png",
+    "Andrade": "assets/characters/Andrade.png",
+    "Marcos": "assets/characters/Marcos.png"
+  },
+  "locations": {
+    "stadium_exterior": "assets/locations/stadium_exterior.png",
+    "empty_stands": "assets/locations/empty_stands.png",
+    "empty_stands_batalla": "assets/locations/empty_stands_batalla.png",
+    "empty_stands_futbol": "assets/locations/empty_stands_futbol.png",
+    "empty_stands_niebla": "assets/locations/empty_stands_niebla.png",
+    "empty_stands_futbol_niebla": "assets/locations/empty_stands_futbol_niebla.png",
+    "vip_box": "assets/locations/vip_box.png",
+    "locker_room": "assets/locations/locker_room.png",
+    "pitch": "assets/locations/pitch.png",
+    "finance_office": "assets/locations/finance_office.png",
+    "bar_el_buho": "assets/locations/bar_el_buho.png",
+    "press_room": "assets/locations/press_room.png",
+    "tunnel_to_pitch": "assets/locations/tunnel_to_pitch.png"
+  },
+  "props": {
+    "laptop": "assets/props/laptop.png",
+    "contract": "assets/props/contract.png",
+    "folder": "assets/props/folder.png",
+    "notebook": "assets/props/notebook.png",
+    "ball": "assets/props/ball.png",
+    "tactical_board": "assets/props/tactical_board.png",
+    "captain_armband": "assets/props/captain_armband.png"
+  }
+}

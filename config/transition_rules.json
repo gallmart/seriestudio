@@ -1,0 +1,25 @@
+{
+  "episode_start": "fade_in",
+  "block_kind_defaults": {
+    "sun_tzu_opening": "fade",
+    "sun_tzu_closing": "dissolve",
+    "interlude_1": "dissolve",
+    "interlude_2": "dissolve",
+    "interlude_3": "dissolve"
+  },
+  "scene_kind_defaults": {
+    "dialogue": "cut",
+    "narration": "dissolve"
+  },
+  "shot_overrides": {
+    "insert": "cut",
+    "tracking": "cut",
+    "wide_establishing": "fade"
+  },
+  "speaker_change_in_dialogue": "cut",
+  "location_change": "fade",
+  "focus_change": "match_cut",
+  "narration_to_dialogue": "dissolve",
+  "dialogue_to_narration": "fade",
+  "fallback": "cut"
+}
