@@ -182,4 +182,8 @@ brew install ffmpeg
 Descargar binario y añadir a PATH
 ```
 
+### Assets
+Los recursos visuales y sonoros incluidos en este repositorio son materiales
+generados mediante herramientas de IA generativa para el desarrollo y prueba
+del proyecto.
 
