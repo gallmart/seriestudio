@@ -48,7 +48,7 @@ for p in [TEMP, OUTPUT]:
 load_dotenv(ROOT / ".env")
 
 FAL_KEY = os.getenv("FAL_KEY", "")
-ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "")
+ELEVENLABS_API_KEY = os.getenv("ELEVEN_API_KEY", "")
 FAL_DIALOGUE_MODEL = os.getenv("FAL_DIALOGUE_MODEL", "fal-ai/sadtalker")
 FAL_SCENE_MODEL = os.getenv("FAL_SCENE_MODEL", "fal-ai/vidu/image-to-video")
 

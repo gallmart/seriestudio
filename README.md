@@ -13,6 +13,9 @@ El motor analiza el texto, detecta contexto narrativo y construye automáticamen
 
 ---
 
+> **Estado:** proyecto personal en desarrollo (*work in progress*).  
+> El repositorio refleja una arquitectura funcional y distintas líneas de experimentación; algunas capacidades siguen en evolución.
+
 # 🚀 ¿Qué hace este proyecto?
 
 Convierte un archivo `libro.txt` en una serie estructurada:
