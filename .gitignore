@@ -25,6 +25,7 @@ credentials.json
 *.bkp
 *.odt
 *.txt
+!requirements.txt
 
 # Logs / temp
 *.log

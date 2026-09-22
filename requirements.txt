@@ -1,0 +1,36 @@
+# Core
+python-dotenv
+pydantic
+
+# App UI
+streamlit
+
+# Data / Utils
+numpy
+pandas
+
+# Video & Audio
+moviepy
+pydub
+gtts
+
+# Image handling
+Pillow
+
+# HTTP / APIs
+requests
+
+# Optional (useful)
+tqdm
+
+# If using OpenAI / Gemini / other APIs
+openai
+
+# If using local ML or embeddings later
+scikit-learn
+
+# Fal.ai
+fal-client
+
+# ElevenLabs
+elevenlabs
